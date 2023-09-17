@@ -231,6 +231,7 @@
     line-height: 150%;
     /* 150% */
     letter-spacing: 0.64px;
+    cursor: pointer;
 }
 
 .active {
