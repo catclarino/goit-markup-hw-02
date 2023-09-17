@@ -1,4 +1,4 @@
-/* start of css header */
+/* start of css header & index.html*/
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
@@ -205,6 +205,79 @@
 
 .footer-desc {
     color: var(--CLOUD, #F4F4FD);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+/* start of portfolio.html*/
+
+.btn-filter {
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+    color: var(--IRIS, #4D5AE5);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.active {
+    border-radius: 4px;
+    background: var(--OCEAN, #404BBF);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 150% */
+    letter-spacing: 0.64px;
+}
+
+/* .main-container{
+
+} */
+/* .main-portfolio-table{
+
+} */
+.main-portfolio-row {
+    background: #FFF;
+}
+
+.main-portfolio-data {
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+}
+
+.data-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.data-category {
+    color: var(--SLATE, #434455);
     /* Body */
     font-family: Roboto;
     font-size: 16px;
