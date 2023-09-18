@@ -126,6 +126,10 @@
     letter-spacing: 0.64px;
     cursor: pointer;
 }
+.main-btn-order-service:hover {
+    background-color: #FFF;
+    color: #4D5AE5;
+}
 
 /* .main-section-1-container{
   
